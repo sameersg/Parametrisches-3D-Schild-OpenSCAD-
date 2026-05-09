@@ -39,16 +39,19 @@ Ueberlappung   = 2; // Z-Überlappung Overlay → Basis (mind. 1-2 mm)
 // =====================================================================
 // 5. POSITIONIERUNG (Defaults für Stil 1 – Klassisch)
 // =====================================================================
-Overlay_Pos_X = -15;
-Overlay_Pos_Y = 20;
+// WICHTIG: Overlay und Symbol müssen physisch auf dem Basis-Text aufliegen!
+// Wenn der Slicer "floating cantilever" meldet, Y/X-Werte reduzieren,
+// bis alles innerhalb der Buchstaben des Basis-Textes liegt.
+Overlay_Pos_X = -5;
+Overlay_Pos_Y = 8;
 
 // =====================================================================
 // 6. SYMBOLE
 // =====================================================================
 Symbol_Typ = 2; // [0:Aus, 1:Ringe (Hochzeit), 2:Herz, 3:Stern, 4:Diamant, 5:Mond, 6:Krone, 7:Blume, 8:Pfeil, 9:Kreuz/Plus, 10:Unendlich, 11:Blitz]
-Symbol_Groesse = 20;
-Symbol_Pos_X  = 55;
-Symbol_Pos_Y  = 22;
+Symbol_Groesse = 15;
+Symbol_Pos_X  = 40;
+Symbol_Pos_Y  = 12;
 
 // =====================================================================
 // 7. NOTFALL-BODENPLATTE (Optional, alle Stile)
